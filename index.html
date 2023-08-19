@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Cader Sahib Rimas</title>
+<!-- Add Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh;
+  }
+  .container {
+    width: 80%; /* Container width as a percentage of the viewport width */
+    max-width: 800px; /* Maximum width for larger screens */
+    padding: 30px; /* Increased padding for better spacing */
+    background-color: #ffffff; /* White container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  .avatar-container {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: pulse 2s infinite alternate; /* Apply the animation */
+  }
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  .text-container {
+    flex: 2;
+    text-align: left;
+  }
+  h1 {
+    color: #333;
+    font-weight: bold; /* Make "DevOps Engineer" bold */
+  }
+  p {
+    color: #666;
+  }
+  .email,
+  .linkedin {
+    color: #007bff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .rights {
+    color: #999;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar-container">
+      <img class="avatar" src="rimas.jpg" alt="Cader Sahib Rimas">
+    </div>
+    <div class="text-container">
+      <h1>About Me - Cader Sahib Rimas</h1>
+      <p>I'm a <strong>DevOps Engineer</strong> at Digival Solutions located in Chennai City Center, Mylapore.</p>
+      <p>I'm passionate about optimizing development and deployment processes to enhance the efficiency and reliability of software delivery. At Digival Solutions, I work on various aspects of DevOps, including continuous integration, continuous deployment, infrastructure automation, and more.</p>
+      <p>If you're interested in discussing anything related to DevOps, technology, or just want to connect, feel free to reach out to me:</p>
+      <a class="email" href="mailto:cader.rimas444@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a class="linkedin" href="https://www.linkedin.com/in/cader-sahib-rimas-444381217/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+  <div class="rights">
+    &copy; 2023 Cader Sahib Rimas. All rights reserved.
+  </div>
+</body>
+</html>
